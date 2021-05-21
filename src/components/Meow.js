@@ -18,7 +18,9 @@ const Meow = ({ user, text, hashtags, replies, likes }) => (
         ))}
       </div>
     </div>
-    <div className="bottom-section"></div>
+    <div className="bottom-section">
+      {replies.type}
+    </div>
   </div>
 );
 
