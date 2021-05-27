@@ -2,9 +2,9 @@ import React from "react";
 import Avatar from "./Avatar";
 
 
-const Profile = ({userDisplayName, photo}) => {
+const Profile = ({userDisplayName, userAccount}) => {
 <div className="Profile">
-  <Avatar photo={user.photo} />
+  <Avatar photo = {userAccount.photo} />
 </div>;
 };
 export default Profile;
